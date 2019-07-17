@@ -14,7 +14,7 @@ The codes for calculating the DoF in a main file can be:
     Origami.gen_random_cst_list();
     long dof = Origami.gen_DoF(Origami.constraint_all);
     
-where L_quad is the "L" in the paper, n_cst_coplanar is the number of rigid quads. The constraint pattern is generated randomly in this case.
+where L_quad is the size of the origami ("L" in the paper) and n_cst_coplanar is the number of rigid quads ("c" in the paper). The constraint pattern is generated randomly in this case.
 It is also possible to specify which quads are rigid by modifying the input vector of gen_DoF( )
 
 
