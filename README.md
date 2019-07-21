@@ -6,7 +6,7 @@ in floppy origami. Proceedings of the National Academy of Sciences, 116(17), 811
 
 
 Installation of the SuiteSparse is required. The codes ran with SuiteSparse 5.2.0.
-origami::gen_DoF is the main function calculating the rank of the rigidity matrix (thus the DoF)
+origami::gen_DoF is the main function calculating the rank of the rigidity matrix (thus the DoF).
 
 The codes for calculating the DoF in a main file can be:
 
